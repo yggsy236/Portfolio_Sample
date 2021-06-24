@@ -3,7 +3,7 @@
 */
 
 body{
-    font-family: "Noto Sans JP",sans-seri;
+    font-family: "Noto Sans JP","sans-seri";
     margin: 0;
     min-width: 1076px;
 
@@ -21,13 +21,20 @@ body{
 
 }
 
+.sub-title{
+
+    font-size: 32px;
+
+}
+
 
 .block-header
 {    
     margin: 10px 0;
     padding: 0 20px 10px;
     box-shadow: 0 10px 10px -5px;
-    rgba {240,240,240,0.3};
+    rgba (240,240,240,0.3)
+    ;
 
 
 }
@@ -40,4 +47,67 @@ body{
     letter-spacing: 1px;
 
 
+}
+
+/*
+*mainのスタイルシート
+*/
+
+.block-main
+{
+     text-align: center;
+     margin: 100px 0;
+
+}
+
+/*
+*profileのスタイルシート
+*/
+
+.item-list{
+    width: 100;
+    max-width: 348px;
+    margin: 0 auto;
+
+}
+
+.item-list b
+{
+    display: block;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 20px 0 30px;
+}
+
+.item-list p{
+
+    font-size: 15px;
+    line-height: normal;
+    text-align: left;
+}
+
+.icon-list{
+
+    list-style: none;
+    width: 100%;
+    max-width: 247px;
+    margin: 30px auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon-list li{
+
+   margin-right: 22px;
+
+
+}
+
+.icon-list li:last-child {
+
+    margin-right: 0
+    ;
 }
