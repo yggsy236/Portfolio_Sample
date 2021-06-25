@@ -13,6 +13,6 @@ Portfolio sample
 HTML/CSS
 
 ## インスール方法
-そのまま[indexhtml]をブラウザで開くと閲覧できます。
+そのまま[index.html]をブラウザで開くと閲覧できます。
 
 
